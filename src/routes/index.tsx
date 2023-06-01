@@ -1,4 +1,5 @@
 import { Title } from "solid-start";
+import TableauViz from "~/components/TableauViz";
 import Counter from "~/components/Counter";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Title>Hello World</Title>
       <h1>Hello world!</h1>
+      <TableauViz />
       <Counter />
       <p>
         Visit{" "}
